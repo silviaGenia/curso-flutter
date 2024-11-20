@@ -47,3 +47,19 @@ class PlanosCasa{
     return '$color';
   }
 }
+
+
+----------------------------------------void main(){
+  final hombreAr = Heroes("Juan", "Agilidad");
+  print(hombreAr);
+}
+
+class Heroes{
+  String nombre;
+  String poder;
+  
+  Heroes(String nombre, String poder)
+    :nombre=nombre,
+      poder=poder;
+  
+}
